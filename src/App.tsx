@@ -16,8 +16,8 @@ export default function Page() {
     const eventTitle = "Valentine’s Date with My Boss❤️";
     const eventDetails = "A special work time together!";
     const eventLocation = "Your favorite place";
-    const startTime = new Date(); 
-    const endTime = new Date(startTime.getTime() + 2 * 60 * 60 * 1000);
+    const startTime = new Date(2025, 1, 16, 8, 30, 0); 
+    const endTime = new Date(startTime.getTime() + 9 * 60 * 60 * 1000);
   
     const formatDate = (date : any) =>
       date.toISOString().replace(/[-:.]/g, "").slice(0, -1) + "Z";
